@@ -1,13 +1,3 @@
-{
-    "presubmit": [
-        { "name": "oob_oggpack_look" }
-    ],
-
-    // tests which require dynamic content
-    // invoke with: atest -- --enable-module-dynamic-download=true
-    // TODO(b/148094059): unit tests not allowed to download content
-    "dynamic-presubmit": [
-        { "name": "VorbisDecoderTest" }
-    ]
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:acee3602ef80a328f1cf0c3c15cc4363df1ab8ddd3639a933bdfda95d05b1802
+size 323
